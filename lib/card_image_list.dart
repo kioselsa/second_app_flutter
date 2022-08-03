@@ -7,7 +7,7 @@ class CardImageList extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     final imagen=Container(
-      height: 660.0,
+      height: 420.0,
       child: ListView(
         padding: const EdgeInsets.all(25.0),
         scrollDirection: Axis.horizontal,

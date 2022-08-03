@@ -66,7 +66,7 @@ class Review extends StatelessWidget{
         textAlign: TextAlign.left,
         style: const TextStyle(
             fontFamily: "Lato",
-            fontSize: 28.0,
+            fontSize: 20.0,
             fontWeight: FontWeight.w900
         ),
       ),
@@ -82,7 +82,7 @@ class Review extends StatelessWidget{
         textAlign: TextAlign.left,
         style: const TextStyle(
             fontFamily: "Lato",
-            fontSize: 28.0,
+            fontSize: 20.0,
             color: Color(0xFFa3a5a7)
         ),
       ),
@@ -99,7 +99,7 @@ class Review extends StatelessWidget{
         textAlign: TextAlign.left,
         style: const TextStyle(
           fontFamily: "Lato",
-          fontSize: 28.0
+          fontSize: 22.0
         ),
       ),
     );
@@ -121,8 +121,8 @@ class Review extends StatelessWidget{
         top: 20.0,
         left: 20.0
       ),
-      width: 220.0,
-      height: 200.0,
+      width: 120.0,
+      height: 110.0,
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         image: DecorationImage(

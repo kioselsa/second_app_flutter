@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class GradientBack extends StatelessWidget{
-  String title="Popular";
+  String title="";
   GradientBack(this.title, {Key? key}) : super(key: key);
 
   @override
@@ -10,7 +10,7 @@ class GradientBack extends StatelessWidget{
 
     //Esta es la parte del header de la app con un color tipo gradient
     final gradient=Container(
-      height: 400.0,
+      height: 280.0,
       decoration: const BoxDecoration(
         gradient: LinearGradient(
           colors: [
@@ -27,7 +27,7 @@ class GradientBack extends StatelessWidget{
         title,
         style: const TextStyle(
           color: Colors.white,
-          fontSize: 60.0,
+          fontSize: 45.0,
           fontFamily: "Lato",
           fontWeight: FontWeight.bold
         ),

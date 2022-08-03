@@ -23,7 +23,7 @@ class GradientBack extends StatelessWidget{
 
         child: const Icon(
           Icons.menu,
-          size: 60.0,
+          size: 40.0,
           color: Colors.white,
         ),
       ),
@@ -32,7 +32,7 @@ class GradientBack extends StatelessWidget{
 
     //Esta es la parte del header de la app con un color tipo gradient
     final gradient=Container(
-      height: 400.0,
+      height: 280.0,
       decoration: const BoxDecoration(
         gradient: LinearGradient(
           colors: [
@@ -57,7 +57,7 @@ class GradientBack extends StatelessWidget{
                 title,
                 style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 60.0,
+                    fontSize: 40.0,
                     fontFamily: "Lato",
                     fontWeight: FontWeight.bold
                 ),

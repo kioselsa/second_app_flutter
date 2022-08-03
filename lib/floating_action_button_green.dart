@@ -36,7 +36,7 @@ class _FloatingActionButtonGreen extends State<FloatingActionButtonGreen> {
     }
 
     //Este es el boton que aparece encima de las cards y large es para el tamaño, hay small, y large
-    return FloatingActionButton.large(
+    return FloatingActionButton(
       backgroundColor: const Color(0xFF11DA53),
       tooltip:"Favorito",
       onPressed: () { onPressedFav(); },

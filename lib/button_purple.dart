@@ -31,8 +31,8 @@ class ButtonPurple extends StatelessWidget{
           left: 20.0,
           right: 50.0
         ),
-        height: 120.0,
-        width: 390.0,
+        height: 80.0,
+        width: 220.0,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(60.0),
           gradient: const LinearGradient(
@@ -48,7 +48,7 @@ class ButtonPurple extends StatelessWidget{
           child: Text(
             buttonText,
             style: const TextStyle(
-              fontSize: 45.0,
+              fontSize: 30.0,
               fontFamily: "Lato",
               color: Colors.white
             ),

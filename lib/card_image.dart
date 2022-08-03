@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'floating_action_button_green.dart';
 class CardImage extends StatelessWidget{
-  String pathImage="assets/img/carousel/toronto.jpg";
+  String pathImage="";
   CardImage(this.pathImage,{Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     final card=Container(
-      height: 660.0,
-      width: 580.0,
+      height: 280.0,
+      width: 320.0,
       margin: const EdgeInsets.only(
-        top: 160.0,
+        top: 110.0,
         left: 20.0
       ),
       decoration: BoxDecoration(
@@ -31,7 +31,7 @@ class CardImage extends StatelessWidget{
       ),
     );
 
-    final cardImage=Stack(
+    final cardButton=Stack(
       alignment: const Alignment(0.9,1.1),
       children: [
         card,
@@ -39,7 +39,7 @@ class CardImage extends StatelessWidget{
       ],
     );
 
-    return cardImage;
+    return cardButton;
   }
 
 }

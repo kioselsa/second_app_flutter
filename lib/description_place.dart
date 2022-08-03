@@ -14,12 +14,12 @@ class DescriptionPlace extends StatelessWidget{
     //Icono con estrellas llenas
     final star = Container (
       margin: const EdgeInsets.only(
-          top: 635.0,
+          top: 445.0,
           right: 3.0
       ),
       child: const Icon(
         Icons.star,
-        size: 40.0,
+        size: 30.0,
         color:  Color(0xFFf2C611),
       ),
     );
@@ -27,12 +27,12 @@ class DescriptionPlace extends StatelessWidget{
     //Icono con estrellas a la mitad
     final starHalf = Container (
       margin: const EdgeInsets.only(
-          top: 635.0,
+          top: 445.0,
           right: 3.0
       ),
       child: const Icon(
         Icons.star_half,
-        size: 40.0,
+        size: 30.0,
         color:  Color(0xFFf2C611),
       ),
     );
@@ -40,12 +40,12 @@ class DescriptionPlace extends StatelessWidget{
     //Icono con estrellas a la vacias
     final starBorder = Container (
       margin: const EdgeInsets.only(
-          top: 635.0,
+          top: 445.0,
           right: 3.0
       ),
       child: const Icon(
         Icons.star_border,
-        size: 40.0,
+        size: 30.0,
         color:  Color(0xFFf2C611),
       ),
     );
@@ -54,7 +54,7 @@ class DescriptionPlace extends StatelessWidget{
       children: <Widget>[
         Container (
           margin: const EdgeInsets.only(
-              top: 630.0,
+              top: 440.0,
               left: 20.0,
               right: 20.0
           ),
@@ -63,7 +63,7 @@ class DescriptionPlace extends StatelessWidget{
             namePlace,
             style: const TextStyle(
                 fontFamily: 'Lato',
-                fontSize: 60.0,
+                fontSize: 45.0,
                 fontWeight: FontWeight.w900
             ),
             textAlign: TextAlign.left,
@@ -96,7 +96,7 @@ class DescriptionPlace extends StatelessWidget{
                 descriptionPlace,
                 style: const TextStyle(
                     fontFamily: 'Lato',
-                    fontSize: 35.0,
+                    fontSize: 28.0,
                     fontWeight: FontWeight.normal,
                     color: Color(0xFF56575a)
                 ),

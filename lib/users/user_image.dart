@@ -10,21 +10,21 @@ class UserImage extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
 
-    // fila con la informacion del usuario
-    final userInfo=Container(
+    //Imagen del usuario
+    final photo=Container(
       margin: const EdgeInsets.only(
+          top: 20.0,
           left: 20.0
       ),
-      child: Text(
-        experience,
-        textAlign: TextAlign.left,
-        style: const TextStyle(
-            fontFamily: "Lato",
-            fontSize: 28.0,
-            color: Color(0xFFa3a5a7)
+      width: 80.0,
+      height: 110.0,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        image: DecorationImage(
+          fit: BoxFit.cover,
+          image: AssetImage(pathImage),
         ),
       ),
-
     );
 
     //fila con el nombre del usuario
@@ -37,26 +37,28 @@ class UserImage extends StatelessWidget{
         textAlign: TextAlign.left,
         style: const TextStyle(
             fontFamily: "Lato",
-            fontSize: 28.0
+            fontSize: 24.0
         ),
       ),
     );
 
-    final imgEmail=Container(
+    // fila con la informacion del usuario
+    final userInfo=Container(
       margin: const EdgeInsets.only(
-          top: 20.0,
-          right: 20.0
+          left: 20.0
       ),
-      width: 100.0,
-      height: 80.0,
-      decoration: BoxDecoration(
-        shape: BoxShape.circle,
-        image: DecorationImage(
-          fit: BoxFit.cover,
-          image: AssetImage(pathImageEmail),
+      child: Text(
+        experience,
+        textAlign: TextAlign.left,
+        style: const TextStyle(
+            fontFamily: "Lato",
+            fontSize: 22.0,
+            color: Color(0xFFa3a5a7)
         ),
       ),
+
     );
+
 
     //Información del usuario
     final userDetails=Column(
@@ -68,22 +70,24 @@ class UserImage extends StatelessWidget{
       ],
     );
 
-    //Imagen del usuario
-    final photo=Container(
+
+    final imgEmail=Container(
       margin: const EdgeInsets.only(
           top: 20.0,
-          left: 20.0
+          right: 20.0
       ),
-      width: 180.0,
-      height: 150.0,
+      width: 50.0,
+      height: 70.0,
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         image: DecorationImage(
           fit: BoxFit.cover,
-          image: AssetImage(pathImage),
+          image: AssetImage(pathImageEmail),
         ),
       ),
     );
+
+
 
     final userRow=Row(
       children: [
