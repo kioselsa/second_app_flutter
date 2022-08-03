@@ -89,15 +89,16 @@ class UserImage extends StatelessWidget{
 
 
 
-    final userRow=Row(
-      children: [
-
-        photo,
-        userDetails,
-        const Spacer(),
-        imgEmail
-      ],
+    final userRow=
+      Row(
+        children: [
+          photo,
+          userDetails,
+          const Spacer(),
+          imgEmail
+        ],
     );
+
 
     return userRow;
   }

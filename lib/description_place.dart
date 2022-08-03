@@ -91,20 +91,18 @@ class DescriptionPlace extends StatelessWidget{
               top: 30.0,
               left: 20.0
           ),
-            child:Flexible(
-              child: Text(
-                descriptionPlace,
-                style: const TextStyle(
-                    fontFamily: 'Lato',
-                    fontSize: 28.0,
-                    fontWeight: FontWeight.normal,
-                    color: Color(0xFF56575a)
-                ),
-                textAlign: TextAlign.left,
-              ),
-            ),
 
+          child: Text(
+            descriptionPlace,
+            style: const TextStyle(
+                fontFamily: 'Lato',
+                fontSize: 28.0,
+                fontWeight: FontWeight.normal,
+                color: Color(0xFF56575a)
+            ),
+            textAlign: TextAlign.left,
           ),
+        ),
       ],
     );
 
