@@ -12,7 +12,7 @@ class UserProfile extends StatelessWidget{
 
     final imageProfile=Container(
       margin: const EdgeInsets.only(
-          top: 200.0,
+          top: 120.0,
           left: 20.0
       ),
       width: 90.0,
@@ -33,7 +33,7 @@ class UserProfile extends StatelessWidget{
     //fila con el nombre del usuario
     final userName=Container(
       margin: const EdgeInsets.only(
-          top: 220.0,
+          top: 140.0,
           left: 40.0
       ),
       child: Text(

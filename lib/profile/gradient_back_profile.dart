@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
 class GradientBackProfile extends StatelessWidget{
   String title="";
@@ -23,21 +24,26 @@ class GradientBackProfile extends StatelessWidget{
           tileMode: TileMode.clamp
         ),
       ),
-      child: Row(
+      child: Container(
+        padding: const EdgeInsets.all(30.0),
+        alignment: Alignment.topLeft,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-          Text(
-          title,
-          style: const TextStyle(
-              color: Colors.white,
-              fontSize: 45.0,
-              fontFamily: "Lato",
-              fontWeight: FontWeight.bold
+            Text(
+              title,
+              style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 45.0,
+                  fontFamily: "Lato",
+                  fontWeight: FontWeight.bold
+              ),
             ),
-          ),
-          const Icon(Icons.circle,size: 35.0,color: Colors.white,)
+            const Icon(Icons.settings,size: 20.0,color: Colors.white38,),
           ],
         ),
-      );
+      ),
+    );
     return gradient;
   }
 
