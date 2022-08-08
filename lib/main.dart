@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'my_trips.dart';
+import 'my_trips_cupertino.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyTrips()
+      home: const MyTripsCupertino()
       // const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

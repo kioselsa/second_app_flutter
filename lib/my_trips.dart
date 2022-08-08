@@ -39,7 +39,7 @@ class _MyTrips extends State<MyTrips> {
           child: BottomNavigationBar(
             onTap: onTapTapped,
             currentIndex: indexTap,
-            iconSize: 55.0,
+            iconSize: 40.0,
             items: const [
               BottomNavigationBarItem(
                   icon: Icon(Icons.home),
